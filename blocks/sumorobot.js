@@ -45,11 +45,11 @@ Blockly.Blocks['sumorobot_delay'] = {
 Blockly.Blocks['sumorobot_move'] = {
   init: function() {
     var OPERATORS =
-      [[Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD, 'forward'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD, 'backward'],
+      [[Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP, 'stop'],
        [Blockly.Msg.SUMOROBOT_MOVE_MSG_LEFT, 'left'],
        [Blockly.Msg.SUMOROBOT_MOVE_MSG_RIGHT, 'right'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP, 'stop']];
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD, 'forward'],
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD, 'backward']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_MOVE_HELPURL);
     this.setColour(330);
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
