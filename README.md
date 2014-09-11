@@ -3,6 +3,6 @@ blockly
 
 blockly extensions for sumorobot programming
 
-Credits ^_^
+credits ^_^
 -----------
 https://code.google.com/p/blockly/
