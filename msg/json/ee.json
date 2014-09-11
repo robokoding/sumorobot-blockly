@@ -1,0 +1,22 @@
+{
+    "SUMOROBOT_DELAY_TITLE": "OOTA",
+    "SUMOROBOT_DELAY_HELPURL": "http://www.robocoding.com/",
+    "SUMOROBOT_DELAY_TOOLTIP": "Jatka liikumist eelnevalt maaratud suunda antud millisekunditeks.",
+    "SUMOROBOT_MOVE_MSG_STOP": "STOPP",
+    "SUMOROBOT_MOVE_MSG_LEFT": "VASAKULE",
+    "SUMOROBOT_MOVE_MSG_RIGHT": "PAREMALE",
+    "SUMOROBOT_MOVE_MSG_FORWARD": "EDASI",
+    "SUMOROBOT_MOVE_MSG_BACKWARD": "TAGASI",
+    "SUMOROBOT_MOVE_HELPURL": "http://www.robocoding.com",
+    "SUMOROBOT_MOVE_TOOLTIP": "Soida Sumorobotiga maaratud suunda.",
+    "SUMOROBOT_ENEMY_MSG_LEFT": "VASTANE VASAKUL",
+    "SUMOROBOT_ENEMY_MSG_FRONT": "VASTANE EES",
+    "SUMOROBOT_ENEMY_MSG_RIGHT": "VASTANE PAREM",
+    "SUMOROBOT_ENEMY_HELPURL": "http://www.robocoding.com/",
+    "SUMOROBOT_ENEMY_TOOLTIP": "Tuvasta vastane Sumovaljakul.",
+    "SUMOROBOT_LINE_MSG_LEFT": "JOON VASAKUL",
+    "SUMOROBOT_LINE_MSG_RIGHT": "JOON PAREMAL",
+    "SUMOROBOT_LINE_MSG_FRONT": "JOON EES",
+    "SUMOROBOT_LINE_HELPURL": "http://www.robocoding.com/",
+    "SUMOROBOT_LINE_TOOLTIP": "Tuvasta Sumovaljaku joon."
+}
