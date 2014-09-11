@@ -1,4 +1,20 @@
 /* sumorobot message translations */
+/* if block */
+Blockly.Msg.CONTROLS_IF_ELSEIF_TOOLTIP = "Lisa kui plokile tingimus.";
+Blockly.Msg.CONTROLS_IF_ELSE_TOOLTIP = "Lisa kui plokile loplik, catch-all tingimus.";
+Blockly.Msg.CONTROLS_IF_HELPURL = "https://code.google.com/p/blockly/wiki/If_Then";
+Blockly.Msg.CONTROLS_IF_IF_TOOLTIP = "Kui ploki umber seadistamiseks, lisa, eemalda, voi sorteeri umber sektsioone.";
+Blockly.Msg.CONTROLS_IF_MSG_ELSE = "voi";
+Blockly.Msg.CONTROLS_IF_MSG_ELSEIF = "voi kui";
+Blockly.Msg.CONTROLS_IF_MSG_IF = "kui";
+Blockly.Msg.CONTROLS_IF_MSG_THEN = "siis";
+Blockly.Msg.CONTROLS_IF_TOOLTIP_1 = "Kui uks vaartus on tosi, siis taida kask.";
+Blockly.Msg.CONTROLS_IF_TOOLTIP_2 = "Kui uks vaartus on tosi, siis taida esimene plokk kaske.  Vastand juhul, taida teine plokk kaske.";
+Blockly.Msg.CONTROLS_IF_TOOLTIP_3 = "Kui esimene vaartus on tosi, siis taida esimene plokk kaske.  Vastand juhul, kui teine vaartus on tosi, taida teine plokk kaske.";
+Blockly.Msg.CONTROLS_IF_TOOLTIP_4 = "Kui esimene vaartus on tosi, siis taida esimene plokk kaske.  Vastasel juhul, kui teine vaartus on tosi, siis taida teine plokk kaske.  Kui ukski vaartustest pole tosi, taida viimane plokk kaske.";
+Blockly.Msg.CONTROLS_IF_IF_TITLE_IF = Blockly.Msg.CONTROLS_IF_MSG_IF;
+Blockly.Msg.CONTROLS_IF_ELSEIF_TITLE_ELSEIF = Blockly.Msg.CONTROLS_IF_MSG_ELSEIF;
+Blockly.Msg.CONTROLS_IF_ELSE_TITLE_ELSE = Blockly.Msg.CONTROLS_IF_MSG_ELSE;
 /* delay block */
 Blockly.Msg.SUMOROBOT_DELAY_TITLE = "OOTA";
 Blockly.Msg.SUMOROBOT_DELAY_HELPURL = "http://www.robocoding.com/";
