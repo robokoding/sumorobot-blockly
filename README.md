@@ -1,8 +1,8 @@
 blockly
 =======
 
-<img src="https://lh6.googleusercontent.com/-xXfCcqL_Zmk/VKbsCu-XyDI/AAAAAAAAJxU/chWyHsPw0JQ/w569-h287-no/blockly_sumorobot.png" alt="blockly" width="49%">
-<img src="https://lh5.googleusercontent.com/-XHaMHrGOujI/VKlFvsZbCDI/AAAAAAAAJxw/ySdAVwUa8os/w969-h939-no/sumo.jpg" alt="blockly" width="49%">
+<img src="https://lh6.googleusercontent.com/-xXfCcqL_Zmk/VKbsCu-XyDI/AAAAAAAAJxU/chWyHsPw0JQ/w569-h287-no/blockly_sumorobot.png" alt="blockly" height="200px">
+<img src="https://lh5.googleusercontent.com/-XHaMHrGOujI/VKlFvsZbCDI/AAAAAAAAJxw/ySdAVwUa8os/w969-h939-no/sumo.jpg" alt="blockly" height="200px">
 
 blockly extensions for sumorobot programming
 
@@ -14,8 +14,13 @@ option 1
 * download blockly and closure
 * copy the javascript files to the respective Blockly folders
 * for existing languages append to the files
-* copy this line to build.py and run it
+* include the sumorobot generator in build.py and run it
 ```python
+...
+self.gen_generator('javascript')
+self.gen_generator('sumorobot')
+self.gen_generator('python')
+...
 ```
 ```bash
 python build.py
