@@ -47,7 +47,9 @@ Blockly.BlockSvg.prototype.updateColour = function(){
       this.colourSaturation_ = Blockly.HSV_SATURATION;
       this.colourValue_ = 255 * Blockly.HSV_VALUE;
     }
-    var a = goog.color.hsvToHex(this.getColour(), this.colourSaturation_, this.colourValue_);
+    var value = this.colourValue_;
+    var saturation = this.colourSaturation_;
+    var a = goog.color.hsvToHex(this.getColour(), saturation, value);
     var b = goog.color.hexToRgb(a);
     var c = goog.color.lighten(b,.3);
     b = goog.color.darken(b,.4);
