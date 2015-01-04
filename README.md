@@ -31,6 +31,18 @@ option 2
 --------
 * link the javascript files directly to your application
 
+additional
+----------
+* the toolbox
+```html
+<xml id="toolbox" style="display: none">
+  <block type="controls_if"></block>
+  <block type="sumorobot_move"></block>
+  <block type="sumorobot_line"></block>
+  <block type="sumorobot_enemy"></block>
+</xml>
+```
+
 optional
 --------
 * to add custom colors to your Blockly blocks
@@ -76,4 +88,4 @@ init: function() {
 
 credits ^_^
 -----------
-https://code.google.com/p/blockly/
+https://developers.google.com/blockly/
