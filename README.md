@@ -2,7 +2,7 @@ blockly
 =======
 
 <img src="https://lh6.googleusercontent.com/-xXfCcqL_Zmk/VKbsCu-XyDI/AAAAAAAAJxU/chWyHsPw0JQ/w569-h287-no/blockly_sumorobot.png" alt="blockly" width="49%">
-<img src="" alt="blockly" width="49%">
+<img src="https://lh5.googleusercontent.com/-XHaMHrGOujI/VKlFvsZbCDI/AAAAAAAAJxw/ySdAVwUa8os/w969-h939-no/sumo.jpg" alt="blockly" width="49%">
 
 blockly extensions for sumorobot programming
 
