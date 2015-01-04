@@ -33,7 +33,7 @@ option 2
 
 additional
 ----------
-* the toolbox
+* the sumorobot toolbox
 ```html
 <xml id="toolbox" style="display: none">
   <block type="controls_if"></block>
@@ -87,5 +87,7 @@ init: function() {
 ```
 
 credits ^_^
------------
-https://developers.google.com/blockly/
+===========
+* https://developers.google.com/blockly/
+* https://developers.google.com/closure/
+* https://github.com/code-dot-org/code-dot-org
