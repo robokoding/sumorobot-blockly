@@ -16,26 +16,26 @@ Blockly.Msg.CONTROLS_IF_IF_TITLE_IF = Blockly.Msg.CONTROLS_IF_MSG_IF;
 Blockly.Msg.CONTROLS_IF_ELSEIF_TITLE_ELSEIF = Blockly.Msg.CONTROLS_IF_MSG_ELSEIF;
 Blockly.Msg.CONTROLS_IF_ELSE_TITLE_ELSE = Blockly.Msg.CONTROLS_IF_MSG_ELSE;
 /* delay block */
-Blockly.Msg.SUMOROBOT_DELAY_TITLE = "OOTA";
-Blockly.Msg.SUMOROBOT_DELAY_HELPURL = "http://www.robocoding.com/";
+Blockly.Msg.SUMOROBOT_DELAY_TITLE = "oota";
+Blockly.Msg.SUMOROBOT_DELAY_HELPURL = "https://codesnail.koodur.com/robokoding/";
 Blockly.Msg.SUMOROBOT_DELAY_TOOLTIP = "Jatka liikumist eelnevalt maaratud suunda antud millisekunditeks.";
 /* move block */
-Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP = "STOPP";
-Blockly.Msg.SUMOROBOT_MOVE_MSG_LEFT = "VASAKULE";
-Blockly.Msg.SUMOROBOT_MOVE_MSG_RIGHT = "PAREMALE";
-Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD = "EDASI";
-Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD = "TAGASI";
-Blockly.Msg.SUMOROBOT_MOVE_HELPURL = "http://www.robocoding.com";
+Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP = "stopp";
+Blockly.Msg.SUMOROBOT_MOVE_MSG_LEFT = "vasakule";
+Blockly.Msg.SUMOROBOT_MOVE_MSG_RIGHT = "paremale";
+Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD = "edasi";
+Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD = "tagasi";
+Blockly.Msg.SUMOROBOT_MOVE_HELPURL = "https://codesnail.koodur.com/robokoding/";
 Blockly.Msg.SUMOROBOT_MOVE_TOOLTIP = "Soida Sumorobotiga maaratud suunda.";
 /* enemy block */
-Blockly.Msg.SUMOROBOT_ENEMY_MSG_LEFT = "VASTANE VASAKUL";
-Blockly.Msg.SUMOROBOT_ENEMY_MSG_FRONT = "VASTANE EES";
-Blockly.Msg.SUMOROBOT_ENEMY_MSG_RIGHT = "VASTANE PAREM";
-Blockly.Msg.SUMOROBOT_ENEMY_HELPURL = "http://www.robocoding.com/";
+Blockly.Msg.SUMOROBOT_ENEMY_MSG_LEFT = "vastane vasakul";
+Blockly.Msg.SUMOROBOT_ENEMY_MSG_FRONT = "vastane ees";
+Blockly.Msg.SUMOROBOT_ENEMY_MSG_RIGHT = "vastane parem";
+Blockly.Msg.SUMOROBOT_ENEMY_HELPURL = "https://codesnail.koodur.com/robokoding/";
 Blockly.Msg.SUMOROBOT_ENEMY_TOOLTIP = "Tuvasta vastane Sumovaljakul.";
 /* line block */
-Blockly.Msg.SUMOROBOT_LINE_MSG_LEFT = "JOON VASAKUL";
-Blockly.Msg.SUMOROBOT_LINE_MSG_RIGHT = "JOON PAREMAL";
-Blockly.Msg.SUMOROBOT_LINE_MSG_FRONT = "JOON EES";
-Blockly.Msg.SUMOROBOT_LINE_HELPURL = "http://www.robocoding.com/";
+Blockly.Msg.SUMOROBOT_LINE_MSG_LEFT = "joon vasakul";
+Blockly.Msg.SUMOROBOT_LINE_MSG_RIGHT = "joon paremal";
+Blockly.Msg.SUMOROBOT_LINE_MSG_FRONT = "joon ees";
+Blockly.Msg.SUMOROBOT_LINE_HELPURL = "https://codesnail.koodur.com/robokoding/";
 Blockly.Msg.SUMOROBOT_LINE_TOOLTIP = "Tuvasta Sumovaljaku joon.";
