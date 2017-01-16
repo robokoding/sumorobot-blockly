@@ -8,9 +8,7 @@ blockly extensions for sumorobot programming
 instrctions
 ===========
 
-option 1
---------
-* download blockly and closure
+* download [blockly](https://developers.google.com/blockly/guides/get-started/web#get_the_code) and [closure](https://developers.google.com/blockly/guides/modify/web/closure#getting_closure)
 * copy the javascript files to the respective Blockly folders
 * append the language files to the end of the respective json files
 * include the sumorobot generator in build.py and run it
@@ -25,10 +23,6 @@ self.gen_generator('python')
 python build.py
 ```
 * link the generated javascript to your application
-
-option 2
---------
-* link the javascript files directly to your application
 
 additional
 ----------
