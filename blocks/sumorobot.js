@@ -31,7 +31,7 @@ goog.require('Blockly.Blocks');
 Blockly.Blocks['sumorobot_delay'] = {
   init: function() {
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_DELAY_HELPURL);
-    this.setColour(330);
+    this.setColour("#E64C00");
     this.appendDummyInput()
       .appendField(Blockly.Msg.SUMOROBOT_DELAY_TITLE)
         .appendField(new Blockly.FieldTextInput('0',
@@ -51,7 +51,7 @@ Blockly.Blocks['sumorobot_move'] = {
        [Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD, 'forward'],
        [Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD, 'backward']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_MOVE_HELPURL);
-    this.setColour(330);
+    this.setColour("#E60000");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
     this.appendDummyInput().appendField(dropdown, 'MOVE');
     this.setPreviousStatement(true);
@@ -67,7 +67,7 @@ Blockly.Blocks['sumorobot_enemy'] = {
        [Blockly.Msg.SUMOROBOT_ENEMY_MSG_FRONT, 'ENEMY_FRONT'],
        [Blockly.Msg.SUMOROBOT_ENEMY_MSG_RIGHT, 'ENEMY_RIGHT']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_ENEMY_HELPURL);
-    this.setColour(120);
+    this.setColour("#0099E6");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
     this.appendDummyInput().appendField(dropdown, 'ENEMY');
     this.setOutput(true, 'Boolean');
@@ -82,7 +82,7 @@ Blockly.Blocks['sumorobot_line'] = {
        [Blockly.Msg.SUMOROBOT_LINE_MSG_FRONT, 'LINE_FRONT'],
        [Blockly.Msg.SUMOROBOT_LINE_MSG_RIGHT, 'LINE_RIGHT']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_LINE_HELPURL);
-    this.setColour(120);
+    this.setColour("#E6BF00");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
     this.appendDummyInput().appendField(dropdown, 'LINE');
     this.setOutput(true, 'Boolean');
