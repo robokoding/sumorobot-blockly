@@ -106,13 +106,15 @@ Blockly.Sumorobot.init = function() {
   }
 
   var defvars = [];
-  var variables = Blockly.Variables.allVariables();
-  for (var x = 0; x < variables.length; x++) {
-    defvars[x] = 'var ' +
-        Blockly.Sumorobot.variableDB_.getName(variables[x],
-        Blockly.Variables.NAME_TYPE) + ';';
+  var variables = workspace.variableList;
+  if (variables.length) {
+    for (var i = 0; i < variables.length; i++) {
+      defvars[i] = Blockly.Sumorobot.variableDB_.getName(variables[i],
+          Blockly.Variables.NAME_TYPE);
+    }
+    Blockly.Sumorobot.definitions_['variables'] =
+        'var ' + defvars.join(', ') + ';';
   }
-  Blockly.Sumorobot.definitions_['variables'] = defvars.join('\n');
 };
 
 /**
