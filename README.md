@@ -23,6 +23,7 @@ self.gen_generator('python')
 python build.py
 ```
 * link the generated javascript to your application
+* see [index.html](https://github.com/robokoding/blockly/blob/master/index.html) as an example
 
 additional
 ----------
