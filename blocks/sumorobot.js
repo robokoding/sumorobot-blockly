@@ -25,11 +25,11 @@ Blockly.Blocks['sumorobot_delay'] = {
 Blockly.Blocks['sumorobot_move'] = {
   init: function() {
     var OPERATORS =
-      [[Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP, 'stop'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_LEFT, 'left'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_RIGHT, 'right'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD, 'forward'],
-       [Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD, 'backward']];
+      [[Blockly.Msg.SUMOROBOT_MOVE_MSG_STOP, 'STOP'],
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_LEFT, 'LEFT'],
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_RIGHT, 'RIGHT'],
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_FORWARD, 'FORWARD'],
+       [Blockly.Msg.SUMOROBOT_MOVE_MSG_BACKWARD, 'BACKWARD']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_MOVE_HELPURL);
     this.setColour("#E60000");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
@@ -54,9 +54,9 @@ Blockly.Blocks['sumorobot_enemy'] = {
 Blockly.Blocks['sumorobot_line'] = {
   init: function() {
     var OPERATORS =
-      [[Blockly.Msg.SUMOROBOT_LINE_MSG_LEFT, 'LINE_LEFT'],
-       [Blockly.Msg.SUMOROBOT_LINE_MSG_FRONT, 'LINE_FRONT'],
-       [Blockly.Msg.SUMOROBOT_LINE_MSG_RIGHT, 'LINE_RIGHT']];
+      [[Blockly.Msg.SUMOROBOT_LINE_MSG_LEFT, 'LEFT'],
+       [Blockly.Msg.SUMOROBOT_LINE_MSG_FRONT, 'FRONT'],
+       [Blockly.Msg.SUMOROBOT_LINE_MSG_RIGHT, 'RIGHT']];
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_LINE_HELPURL);
     this.setColour("#E6BF00");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
