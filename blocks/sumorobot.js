@@ -45,7 +45,7 @@ Blockly.Blocks['sumorobot_enemy'] = {
     this.setHelpUrl(Blockly.Msg.SUMOROBOT_ENEMY_HELPURL);
     this.setColour("#0099E6");
     var dropdown = new Blockly.FieldDropdown(OPERATORS);
-    this.appendDummyInput().appendField('ENEMY');
+    this.appendDummyInput().appendField('enemy');
     this.setOutput(true, 'Boolean');
     this.setTooltip(Blockly.Msg.SUMOROBOT_ENEMY_TOOLTIP);
   }
