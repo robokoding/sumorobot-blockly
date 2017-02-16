@@ -30,21 +30,21 @@ Blockly.Sumorobot['controls_if'] = function(block) {
 };
 
 Blockly.Sumorobot['sumorobot_delay'] = function(block) {
-  var code = "delay(" + parseFloat(block.getFieldValue('DELAY')) + ");\n";
+  var code = 'sumorobot.delay(' + parseFloat(block.getFieldValue('DELAY')) + ');\n';
   return code;
 };
 
 Blockly.Sumorobot['sumorobot_move'] = function(block) {
-  var code = block.getFieldValue('MOVE') + "();\n";
+  var code = 'sumorobot.move(' + block.getFieldValue('MOVE') + ');\n';
   return code;
 };
 
 Blockly.Sumorobot['sumorobot_enemy'] = function(block) {
-  var code = block.getFieldValue('ENEMY');
+  var code = 'sumorobot.isEnemy()';
   return [code, Blockly.Sumorobot.ORDER_ATOMIC];
 };
 
 Blockly.Sumorobot['sumorobot_line'] = function(block) {
-  var code = block.getFieldValue('LINE');
+  var code = 'sumorobot.isLine(' + block.getFieldValue('LINE') + ')';
   return [code, Blockly.Sumorobot.ORDER_ATOMIC];
 };
