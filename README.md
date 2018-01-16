@@ -8,26 +8,8 @@ blockly extensions for sumorobot programming
 instrctions
 ===========
 
-* download [blockly](https://developers.google.com/blockly/guides/get-started/web#get_the_code) and [closure](https://developers.google.com/blockly/guides/modify/web/closure#getting_closure)
-* copy the javascript files to the respective Blockly folders
-* append the language files to the end of the respective json files
-* include the sumorobot generator in build.py and run it
-```python
-...
-self.gen_generator('javascript')
-self.gen_generator('sumorobot')
-self.gen_generator('python')
-...
-```
-```bash
-python build.py
-```
-* link the generated javascript to your application
-* see [index.html](https://github.com/robokoding/blockly/blob/master/index.html) as an example
-
-additional
-----------
-* the sumorobot toolbox
+* just add the code from sumorobot.js to your Blockly JavaScript code
+* define the sumorobot toolbox
 ```html
 <xml id="toolbox" style="display: none">
   <block type="controls_if"></block>
