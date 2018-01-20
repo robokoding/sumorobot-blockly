@@ -14,6 +14,7 @@ instrctions
 <xml id="toolbox" style="display: none">
   <block type="controls_if"></block>
   <block type="sumorobot_move"></block>
+  <block type="sumorobot_sleep"></block>
   <block type="sumorobot_line"></block>
   <block type="sumorobot_enemy"></block>
 </xml>

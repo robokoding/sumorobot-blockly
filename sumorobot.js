@@ -1,10 +1,10 @@
-Blockly.Blocks['sumorobot_delay'] = {
+Blockly.Blocks['sumorobot_sleep'] = {
     init: function() {
         this.setColour("#E64C00");
         this.appendDummyInput()
-          .appendField("delay")
+          .appendField("sleep")
             .appendField(new Blockly.FieldTextInput('1000',
-              Blockly.FieldNumber.numberValidator), 'DELAY');
+              Blockly.FieldNumber.numberValidator), 'SLEEP');
         this.setPreviousStatement(true);
         this.setNextStatement(true);
     }
@@ -48,8 +48,8 @@ Blockly.Blocks['sumorobot_line'] = {
     }
 };
 
-Blockly.Python['sumorobot_delay'] = function(block) {
-    var code = 'sumorobot.sleep(' + parseFloat(block.getFieldValue('DELAY')) + ', "' + block.id + '")\n';
+Blockly.Python['sumorobot_sleep'] = function(block) {
+    var code = 'sumorobot.sleep(' + parseFloat(block.getFieldValue('SLEEP')) + ', "' + block.id + '")\n';
     return code;
 };
 
