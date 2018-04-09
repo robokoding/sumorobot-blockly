@@ -20,6 +20,11 @@ instrctions
 </xml>
 ```
 
+support
+=======
+If you find our work useful, please consider donating : )  
+[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/robokoding/donate)  
+
 credits ^_^
 ===========
 * https://developers.google.com/blockly/
