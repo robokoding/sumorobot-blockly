@@ -1,7 +1,7 @@
 blockly
 =======
 
-![blockly](http://www.robokoding.com/assets/images/blockly.jpg)
+![blockly](http://www.robokoding.com/assets/img/sumorobot_interface_blockly.png)
 
 blockly extensions for sumorobot programming
 
